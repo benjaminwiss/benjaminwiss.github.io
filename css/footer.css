@@ -1,0 +1,22 @@
+footer {
+  background-color: #2e323e;
+  position: relative;
+  height: 80px;
+  width: 100%;
+}
+
+footer .left {
+  float: left;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 30px;
+  color: white;
+}
+
+footer .right {
+  float: right;
+  margin-right: 20px;
+  font-size: 18px;
+  margin-top: 30px;
+  color: white;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #2e323e;
+}
+
+.form {
+  height: 100%;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.form .centrer {
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.form .centrer .container {
+  width: 910px;
+  position: relative;
+}
+
+.form .centrer .title {
+  font-size: 30px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px gray;
+  color: white;
+}
+
+.form .centrer input.text {
+    display: block;
+    background: none;
+    border: none;
+    border-bottom: solid 1px gray;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    width: 100%;
+}
+
+.form .centrer textarea {
+  display: block;
+  background: none;
+  border: none;
+  border-bottom: solid 1px gray;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  width: 100%;
+  height: 150px;
+}
+
+.form .centrer .submit {
+    background-color: #e7b05e;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+}
+
+.form .centrer .info {
+    display: inline-block;
+    width: 300px;
+    color: white;
+    line-height: 25px;
+    padding-top: 60px;
+	text-align: justify;
+}
+
+
+.form .centrer .info ul {
+    margin-top: 20px;
+}
+
+.form .centrer form {
+  display: inline-block;
+  width: 500px;
+  margin-right: 100px;
+  vertical-align: top;
+}
